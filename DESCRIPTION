@@ -1,0 +1,12 @@
+Package: NPSFM
+Title: A Nonparametric method for estimating size at first maturity of exploited species.
+Version: 0.0.0.9000
+Authors@R: person(given = "Emigdio", family = "Marin-Enriquez", role = c("cre"), email = "emarin@uas.edu.mx", comment = c(ORCID = "0000-0002-5007-9357"))
+Description: The package contains only one function (size.matur), which is used to estimate the size at first maturity of a given species, given a percentage of the population (usually 50%, L50) that is of interest to the user. The function fits a Generalized Additive Model (GAM) from the mgcv package, and it returns the estimated size at first maturity with associated 95% confidence intervals.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Imports: mgcv
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
